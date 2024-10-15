@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
 from typing import List, Tuple
+"""Zoom in on the given array by a specified factor"""
+
 
 def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
     """Zoom in on the given array by a specified factor.
@@ -15,6 +18,7 @@ def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
         for _ in range(factor)
     ]
     return zoomed_in
+
 
 array = [12, 72, 91]
 
